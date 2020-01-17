@@ -1,0 +1,106 @@
+{
+    "bookId": "2245884",
+    "dispatch3rd": false,
+    "retryDispatch": false,
+    "dispatchType": 0,
+    "drvInfo": {
+        "phone": ""
+    },
+    "psgInfo": {
+        "creditInfo": {}
+    },
+    "mDispatcherInfo": {},
+    "request": {
+        "pickUpTime": "2019-11-07 04:02",
+        "note": "",
+        "vehicleType": [
+            "Da Nang, Vietnam"
+        ],
+        "vehicleTypeRequest": "Da Nang, Vietnam",
+        "pickup": {
+            "geo": [
+                108.21708230000002,
+                16.0588543
+            ],
+            "cityName": "Da Nang",
+            "address": "Hoang Dieu, Hai Chau District, Da Nang, Vietnam",
+            "zipCode": "550000",
+            "from": "gg",
+            "instructionLink": ""
+        },
+        "destination": {
+            "geo": [
+                108.20999430000006,
+                16.0681669
+            ],
+            "cityName": "Da Nang",
+            "address": "Hoang Hoa Tham, Hai Chau District, Da Nang, Vietnam",
+            "zipCode": "550000",
+            "from": "gg",
+            "instructionLink": ""
+        },
+        "moreInfo": {
+            "flightInfo": {
+                "type": -1,
+                "airline": "",
+                "flightNumber": ""
+            }
+        },
+        "estimate": {
+            "distance": "1.6 km",
+            "time": "6 mins",
+            "estimateValue": 462,
+            "fare": {
+                "estimateFareBuy": null,
+                "basicFare": 37.76,
+                "etaFare": 51.44,
+                "minFare": 3,
+                "min": false,
+                "tollFee": 0,
+                "normalFare": true,
+                "promoAmount": 0,
+                "otherFees": 4,
+                "route": "",
+                "airportFee": 0,
+                "meetDriverFee": 0,
+                "rushHourFee": 0,
+                "techFee": 0,
+                "bookingFee": 0,
+                "tax": 4.68,
+                "tip": 0,
+                "typeRate": 0,
+                "totalWithoutPromo": 51.44,
+                "serviceFee": 5,
+                "reverseRoute": false,
+                "routeId": "",
+                "dynamicSurcharge": 0,
+                "dynamicFare": 0,
+                "surchargeParameter": 0,
+                "shortTrip": false
+            }
+        },
+        "type": 0,
+        "typeRate": 0,
+        "paymentType": 1,
+        "packageRateId": "",
+        "duration": 0,
+        "packageRateName": "",
+        "tip": 0,
+        "promo": "",
+        "promoValue": "",
+        "rideSharing": false,
+        "extraDestination": [],
+        "services": [
+            {
+                "fee": 5,
+                "active": true,
+                "name": "Cafe-automation",
+                "type": "Compulsory",
+                "serviceId": "5db9501188570519672f40dc"
+            }
+        ]
+    },
+    "operator": {
+        "name": "beta "
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "firstPackage": {
+        "driver": {
+            "settlement": {
+                "value": 0,
+                "maximum": [
+                    {
+                        "value": 222,
+                        "currencyISO": "USD"
+                    }
+                ]
+            },
+            "type": "money",
+            "money": [
+                {
+                    "value": 222,
+                    "currencyISO": "USD"
+                }
+            ]
+        },
+        "passenger": {
+            "promoCode": "",
+            "promoId": "",
+            "valueByCurrencies": []
+        }
+    },
+    "secondPackage": {
+        "driver": {
+            "settlement": {
+                "value": 0,
+                "maximum": [
+                    {
+                        "value": 0,
+                        "currencyISO": "USD"
+                    }
+                ]
+            },
+            "type": "money",
+            "money": [
+                {
+                    "value": 0,
+                    "currencyISO": "USD"
+                }
+            ]
+        },
+        "totalBook": 5
+    },
+    "thirdPackage": {
+        "driver": {
+            "settlement": {
+                "value": 0,
+                "maximum": [
+                    {
+                        "value": 0,
+                        "currencyISO": "USD"
+                    }
+                ]
+            },
+            "type": "money",
+            "money": [
+                {
+                    "value": 0,
+                    "currencyISO": "USD"
+                }
+            ]
+        },
+        "isLimited": false,
+        "totalBook": 0
+    },
+    "_id": "5da8161788570519672f39d8",
+    "isExpired": false,
+    "expiryDate": null,
+    "isLimitInvitation": false,
+    "limitedUser": 0,
+    "isActive": true,
+    "fleetId": "auto"
+}

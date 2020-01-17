@@ -1,0 +1,13 @@
+{
+    "paymentType": 2,
+    "bookId": "2247256",
+    "operator": {
+        "name": "beta "
+    },
+    "creditInfo": {
+        "localToken": "cus_FxuAuRuS27bvtC",
+        "crossToken": "",
+        "cardMask": "XXXXXXXXXXXX4242",
+        "cardType": "Visa"
+    }
+}

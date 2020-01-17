@@ -1,0 +1,87 @@
+{
+    "bookFrom": "Web booking",
+    "platform": "Web",
+    "psgInfo": {
+        "firstName": "Automation",
+        "lastName": "Web Booking",
+        "email": "abc@zing.vn",
+        "phone": "+12055550003",
+        "creditInfo": {
+            "sca": false,
+            "token": ""
+        }
+    },
+    "request": {
+        "type": 0,
+        "typeRate": 0,
+        "rv": "4.1.0",
+        "hourly": 0.1488888888888889,
+        "duration": 0.1488888888888889,
+        "pickUpTime": "Now",
+        "pickUpTimeEta": "Now",
+        "pickup": {
+            "businessName": "",
+            "city": "550000__Đà Nẵng_Vietnam",
+            "cityName": "Đà Nẵng",
+            "zipCode": "550000",
+            "address": "Hoàng Diệu, Hải Châu District, Da Nang",
+            "geo": [
+                108.21708230000002,
+                16.0588543
+            ]
+        },
+        "destination": {
+            "businessName": "",
+            "cityName": "Đà Nẵng",
+            "zipCode": "550000",
+            "city": "550000__Đà Nẵng_Vietnam",
+            "address": "Duy Tan University, Quang Trung, Hải Châu I, Hải Châu District, Da Nang",
+            "geo": [
+                108.22290550000002,
+                16.0747104
+            ]
+        },
+        "vehicleTypeRequest": "Da Nang, Vietnam",
+        "vehicleType": [
+            "Da Nang, Vietnam"
+        ],
+        "fleetId": "haidr",
+        "note": "",
+        "tip": 0,
+        "promo": "",
+        "promoValue": "",
+        "moreInfo": {
+            "flightInfo": {
+                "flightNumber": "",
+                "type": -1
+            },
+            "service": "One Way"
+        },
+        "estimate": {
+            "distance": "1.4 mi",
+            "estimateValue": 540,
+            "time": "9 minutes",
+            "ft": 0,
+            "actualFare": true,
+            "fare": {
+                "basicFare": 49.93,
+                "etaFare": 49.93,
+                "airportFee": 0,
+                "meetDriverFee": 0,
+                "rushHourFee": 0,
+                "techFee": 0,
+                "bookingFee": 0,
+                "tax": 0,
+                "tip": 0,
+                "normalFare": true,
+                "otherFees": 0,
+                "route": "",
+                "promoAmount": 0,
+                "minFare": 1,
+                "min": false,
+                "tollFee": 0,
+                "bookingFeeActive": false
+            }
+        }
+    }
+}

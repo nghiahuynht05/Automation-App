@@ -1,0 +1,39 @@
+{
+  "name": "automation-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r dotenv/config ./node_modules/cucumber/bin/cucumber-js -f json:test/report/cucumber-report.json"
+  },
+  "author": "nghia.huynht",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.7.5",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "@wdio/cli": "^5.13.0",
+    "appium": "^1.15.1",
+    "appium-doctor": "^1.11.1",
+    "base64-img": "^1.0.4",
+    "chai": "^4.2.0",
+    "cucumber-html-reporter": "^2.0.3",
+    "debug": "^4.1.1",
+    "dotenv": "^8.1.0",
+    "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.26",
+    "protractor": "^5.4.2",
+    "socket.io-client": "^2.3.0",
+    "supertest": "^4.0.2",
+    "typescript": "^3.6.3",
+    "webdriverio": "^5.12.5"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.13.0",
+    "@wdio/mocha-framework": "^5.12.1",
+    "@wdio/spec-reporter": "^5.12.1",
+    "cucumber": "^5.1.0",
+    "eslint": "^6.5.1",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}

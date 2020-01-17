@@ -1,0 +1,136 @@
+{
+    "fleetId": "auto",
+    "cancellationPolicy": {
+        "onDemand": true,
+        "duration": 0,
+        "times": 1,
+        "inAdvance": true,
+        "durationIn": 1,
+        "durationInUnit": "hour"
+    },
+    "noShow": {
+        "isActive": true,
+        "applyCountDown": false,
+        "countdownDuration": 0
+    },
+    "airport": {
+        "isCustomized": false,
+        "fromAirportActive": true,
+        "fromAirport": 0,
+        "toAirportActive": true,
+        "toAirport": 0,
+        "payTo": 0,
+        "fromAirportByCurrencies": [
+            {
+                "currencyISO": "USD",
+                "value": 2
+            }
+        ],
+        "toAirportByCurrencies": [
+            {
+                "currencyISO": "USD",
+                "value": 3
+            }
+        ]
+    },
+    "meetDriver": {
+        "onCurb": 0,
+        "meetDrv": 0,
+        "payTo": 0,
+        "meetDrvByCurrencies": [
+            {
+                "currencyISO": "USD",
+                "value": 5
+            }
+        ],
+        "onCurbByCurrencies": [
+            {
+                "currencyISO": "USD",
+                "value": 4
+            }
+        ]
+    },
+    "additionalServicesActive": true,
+    "rushHourActive": true,
+    "otherFeeActive": true,
+    "otherFee": {
+        "value": 0,
+        "isEdit": true,
+        "addNote": false,
+        "limitDriverInputActive": false,
+        "otherFeeDriverCanInput": [],
+        "valueByCurrencies": [
+            {
+                "currencyISO": "USD",
+                "value": 4
+            }
+        ]
+    },
+    "taxActive": true,
+    "tax": 10,
+    "tipActive": true,
+    "tips": 10,
+    "tipPaymentMethod": {
+        "credit": false,
+        "wallet": false
+    },
+    "tipDefaultValues": [],
+    "tollFeeActive": true,
+    "tollFeePayTo": 0,
+    "tollFeeDriverCanInput": [],
+    "tollFeeLimitDriverInputActive": false,
+    "heavyTrafficActive": true,
+    "heavyTrafficSurcharge": 0,
+    "heavyTrafficByCurrencies": [
+        {
+            "currencyISO": "USD",
+            "value": 2
+        }
+    ],
+    "driverAppAlert": 2,
+    "driverAppAlertUnit": "hour",
+    "paxAppAlert": 2,
+    "paxAppAlertUnit": "hour",
+    "generalSetting": {
+        "advanceInfoCorp": false,
+        "soundNotify": false,
+        "regAsCorpTraveler": false,
+        "notAllowMakeBookingWithoutAssignFare": false,
+        "disableInvoicingReceipt": false,
+        "hideProviderFromCorp": true,
+        "optionalEmailPaxApp": false,
+        "disableHourlyRate": false,
+        "genderRequireInPaxApp": false,
+        "compulsoryAddressInPaxApp": false,
+        "compulsoryIdNationalIcInPaxApp": false,
+        "allowPassengerToUploadDocument": false,
+        "compulsoryNationalIcDocumentInPaxApp": false,
+        "showTotalFareWithoutPromotionOnDriverApp": false,
+        "hideFareOnPaxAppForAllCorporateBookings": false
+    },
+    "statusOnMap": [
+        "bookIn",
+        "offered",
+        "booked",
+        "arrived",
+        "engaged",
+        "droppedOff",
+        "action",
+        "bookOff"
+    ],
+    "SOSNumber": {
+        "defaultNumber": "",
+        "zoneNumber": [
+            {
+                "zoneId": "5d9e9bb68f0843d14c8af4dd",
+                "phone": ""
+            }
+        ]
+    },
+    "heatMapSetting": {
+        "defaultMode": "timeoutBookings",
+        "radius": 40,
+        "intensity": 80,
+        "opacity": 0.7
+    }
+}

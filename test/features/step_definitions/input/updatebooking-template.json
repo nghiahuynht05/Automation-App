@@ -1,0 +1,21 @@
+{
+    "geo": [
+        108.20999430000006,
+        16.0681669
+    ],
+    "cityName": "Da Nang, Vietnam",
+    "bookId": "3123466395",
+    "from": "gg",
+    "type": "",
+    "distanceTour": 0,
+    "zoneId": "",
+    "country": "VN",
+    "city": "550000__Da Nang_Vietnam",
+    "id": "",
+    "address": "Hoang Hoa Tham, Hai Chau District, Da Nang, Vietnam",
+    "savedAddress": false,
+    "locationType": "SINGLE",
+    "zipCode": "550000",
+    "isHistory": false,
+    "fleetId": "auto"
+}

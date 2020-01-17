@@ -1,0 +1,97 @@
+{
+    "platform": "android",
+    "bookFrom": "Pax Plus",
+    "dispatchType": 0,
+    "request": {
+        "pickup": {
+            "address": "Giáo xứ Chính tòa Đà Nẵng, Đường Trần Phú, Hải Châu I, Hải Châu District, Da Nang, Vietnam",
+            "geo": [
+                108.22300440000004,
+                16.06669
+            ],
+            "timezone": "Asia/Saigon",
+            "cityName": "",
+            "zipCode": "550000"
+        },
+        "destination": {
+            "address": "Duy Tan University, Nguyễn Văn Linh, Thanh Khê District, Da Nang, Vietnam",
+            "geo": [
+                108.20979169999998,
+                16.0601316
+            ],
+            "cityName": "",
+            "timezone": "Asia/Saigon",
+            "zipCode": "550000"
+        },
+        "pickUpTime": "Now",
+        "paymentType": 1,
+        "promo": "",
+        "promoValue": "",
+        "tip": 0,
+        "vehicleType": [
+            "Da Nang, Vietnam"
+        ],
+        "vehicleTypeRequest": "Da Nang, Vietnam",
+        "fleetId": "auto",
+        "note": "Automation Test Driver App",
+        "estimate": {
+            "estimateValue": 0,
+            "fare": {
+                "min": false,
+                "techFee": 0,
+                "serviceFee": 0,
+                "dynamicSurcharge": 0,
+                "promoAmount": 0,
+                "etaFare": 0,
+                "otherFees": 0,
+                "tip": 0,
+                "typeRate": 0,
+                "normalFare": true,
+                "rushHourFee": 0,
+                "tax": 0,
+                "tollFee": 0,
+                "route": "",
+                "vehicleType": "Da Nang, Vietnam",
+                "basicFare": 0,
+                "bookingFee": 0,
+                "currencyISO": "USD",
+                "meetDriverFee": 0,
+                "minFare": 0,
+                "airportFee": 0
+            }
+        },
+        "pricingType": 0,
+        "packageRateId": "",
+        "packageRateName": "",
+        "hourly": "",
+        "typeRate": 0,
+        "type": 0
+    },
+    "psgInfo": {
+        "geo": [],
+        "shareLocation": false,
+        "creditInfo": {
+            "localToken": "cus_FxuAuRuS27bvtC",
+            "country": "",
+            "city": "",
+            "street": "",
+            "zipCode": "",
+            "state": "",
+            "cardType": "Visa",
+            "crossToken": "",
+            "cardHolder": "automation",
+            "cardMask": "XXXXXXXXXXXX4242",
+            "gateway": "Stripe"
+        },
+        "rank": 0
+    },
+    "corporateInfo": {
+        "chargeCode": "",
+        "clientCaseMatter": "",
+        "corporateId": "",
+        "creditInfo": {}
+    },
+    "travelerType": 0,
+    "pegasus": true,
+    "pricingType": 0
+}
